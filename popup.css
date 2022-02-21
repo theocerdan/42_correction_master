@@ -1,0 +1,15 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 300px;
+    background: linear-gradient(#e66465, #9198e5);
+    color: white;
+    padding: 5% 5% 5% 5%;
+}
