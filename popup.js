@@ -31,7 +31,10 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 function buttonTitle(active){
-    return ("Correction Master " + active);
+    if (active)
+       return "Searching for a slot..." 
+    else
+        return "Click here to search !"
 }
 
 chrome.runtime.onMessage.addListener(

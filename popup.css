@@ -9,7 +9,24 @@ body {
     flex-direction: column;
     justify-content: space-between;
     width: 300px;
-    background: linear-gradient(#e66465, #9198e5);
-    color: white;
-    padding: 5% 5% 5% 5%;
+    background: linear-gradient(#7ae664, #e0e0e0);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: rgb(0, 0, 0);
+    padding: 10px 10px 10px 10px;
+}
+
+#info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+#active-btn {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    border-radius: 12px;
+    border-color: rgb(22, 136, 47);
 }
