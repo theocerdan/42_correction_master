@@ -7,7 +7,7 @@
 body {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: space-between;
     width: 300px;
     background: linear-gradient(#e66465, #9198e5);
     color: white;

@@ -6,8 +6,11 @@
     "action": {
         "default_popup": "popup.html"
     },
-    "background": {
-        "service_worker": "background.js"
-    },
+    "content_scripts": [
+        {
+        "matches": ["*://projects.intra.42.fr/*"],
+        "js": ["background.js"]
+        }
+    ],
     "permissions": ["storage", "activeTab", "scripting"]
   }
