@@ -1,8 +1,9 @@
 {
     "name": "Correction Master",
-    "description": "Simple tool",
+    "description": "Extension that allows to find a correction quickly when nobody is at school. bugs and suggestion : @tcerdan",
     "version": "1.0",
     "manifest_version": 3,
+    "icons": { "128": "icon.png" },
     "action": {
         "default_popup": "popup.html"
     },
