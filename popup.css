@@ -24,9 +24,15 @@ body {
 }
 
 #active-btn {
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding: 5px 5px 5px 5px;
     margin-bottom: 10px;
     border-radius: 12px;
     border-color: rgb(22, 136, 47);
+}
+
+#settings {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
